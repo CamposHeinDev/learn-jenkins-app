@@ -29,6 +29,7 @@ pipeline {
                 docker {
                     image 'node:18-alpine'
                 }
+            }
             steps{
                 sh ''' 
                     echo 'STARTING TEST STAGE'
