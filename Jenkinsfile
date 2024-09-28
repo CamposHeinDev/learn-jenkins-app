@@ -26,10 +26,10 @@ pipeline {
         }
         stage('Test'){
             steps{
-                
                 sh ''' 
                     echo 'STARTING TEST STAGE'
                     test -f build/$FILE_NAME
+                    npm test
                 '''
             }
         }
