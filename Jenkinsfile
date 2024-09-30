@@ -121,7 +121,7 @@ pipeline {
             }
 
             environment {
-                CI_ENVIRONMENT_URL = '53b88606-ba83-4006-a031-8f99f962af2c'
+                CI_ENVIRONMENT_URL = 'https://idyllic-zuccutto-a7dedf.netlify.app'
             }
 
             steps {
